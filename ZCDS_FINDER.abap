@@ -1,10 +1,10 @@
 *&---------------------------------------------------------------------*
-*& Report Z_CDS_FINDER
+*& Report ZCDS_FINDER
 *&---------------------------------------------------------------------*
 *& Author: atcher4sap / Date : 30 Aug 2017
 *& Program finds common ABAP CDS views for SAP tables
 *&---------------------------------------------------------------------*
-REPORT zrtrr_cds_finder.
+REPORT zcds_finder.
 
 TYPES : BEGIN OF ty_output,
           view_name TYPE objectname,
